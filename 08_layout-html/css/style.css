@@ -172,6 +172,10 @@ body {
   padding-left: 29px;
 }
 /* special */
+
+.special-content {
+  flex-wrap: wrap;
+}
 .special-block {
   flex-direction: column;
   width: calc((100% - 24px) / 2);
@@ -188,7 +192,7 @@ body {
   padding: 40px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .item-right {
