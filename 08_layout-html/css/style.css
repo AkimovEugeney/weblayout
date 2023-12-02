@@ -131,21 +131,16 @@ body {
 }
 
 .header-middle {
-  min-height: 70px;
   justify-content: space-between;
-  padding: 0 45px;
+  padding: 14px 45px;
   border-radius: 15px;
   background: #FFF;
   align-items: center;
+  gap: 20px;
 }
 
 .navbar-list {
   flex-wrap: wrap;
-  padding: 27px 0;
-}
-
-.navbar {
-  margin-right: 114px;
 }
 
 .navbar-link {
@@ -159,20 +154,22 @@ body {
 
 .header-muddle-btn{
   flex-wrap: wrap;
-  padding: 14px 0;
 }
 
 .header-middle-link:not(:last-child) {
   margin-right: 30px;
 }
-
-/* не понимаю почему иконка ниже чем и как исправить */
 .cabinet-text {
-  background: url('../img/keyboard_tab.svg') no-repeat left center / 24px 24px;
-  padding-left: 29px;
+  display: inline-flex;
+  align-items: center;
 }
-/* special */
 
+.cabinet-text svg {
+  margin-right: 5px;
+  padding-bottom: 2px;
+}
+
+/* special */
 .special-content {
   flex-wrap: wrap;
 }
@@ -224,12 +221,17 @@ body {
 }
 
 .special-link {
+  display: inline-flex;
+  align-items: center;
   color: #F0BF5F;
   font-size: 16px;
   font-weight: 400;
-  background: url('../img/rectangle.svg') no-repeat right center / 11px 18px;
-  padding-right: 16px;
-  max-width: max-content; /* решение проблемы со стрелкой */
+  max-width: max-content;
+}
+
+.special-link p {
+  margin: 0;
+  margin-right: 4px;
 }
 
 .title-lux {
@@ -249,7 +251,6 @@ body {
 }
 
 /* aboutUs */
-
 .aboutUs-descr {
   max-width: 888px;
   margin: 0;
@@ -260,7 +261,6 @@ body {
 }
 
 /* services */
-
 .services-list {
   flex-wrap: wrap;
   gap: 24px;
@@ -408,10 +408,20 @@ body {
   width: calc((100% - 24px * 2) / 3);
   border-radius: 15px;
   background: #FFF;
+  display: flex;
+  flex-direction: column;
 }
 
 .accommodation-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding: 32px 45px;
+}
+
+.btn-accommodation {
+  margin-top: auto;
+  max-width: max-content;
 }
 
 .accommodation-inner {
