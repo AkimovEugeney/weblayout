@@ -46,7 +46,7 @@
           </ul>
         </nav>
 				<div class="header-muddle-btn flex">
-					<a class="btn header-middle-link text" href="#">Хочу тур</a>
+					<a class="btn header-middle-link text" href="#tour">Хочу тур</a>
           <button class="btn navbar-btn text">Обратный звонок</button>
 				</div>
       </div>
@@ -160,7 +160,7 @@
             <p class="advantage-descr">Повседневная практика показывает, что сложившаяся структура организации</p>
           </li>
           <li class="advantage-list-item advantage-img-5">
-            <p class="advantage-descr">Равным образом рамки и&nbsp;место обучения кадров способствует подготовки сотрудника</p>
+            <p class="advantage-descr">Равным бразом рамки и&nbsp;место обучения кадров способствует подготовки сотрудника</p>
           </li>
           <li class="advantage-list-item advantage-img-6">
             <p class="advantage-descr">Консультация с&nbsp;активом влечёт за&nbsp;собой процесс внедрения услуг нашего сервиса</p>
@@ -377,8 +377,109 @@
           </li>
         </ul>
       </section>
+      <section id="tour" class="tour section-offset">
+        <div class="tour-container">
+          <h2 class="section-title tour-title">Хочу тур</h2>
+          <div class="tour-form-container">
+            <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="tour-form flex" >
+              <div class="tour-form-content flex">
+                <div class="tour-select">
+                  <p class="tour-select-title">Город вылета</p>
+                  <select name="city" class="form-select">
+                    <option value="Санкт-Петербург" selected>Санкт-Петербург</option>
+                  </select>
+                </div>
+                <div class="tour-select">
+                  <p class="tour-select-title">Страна</p>
+                  <select name="country" class="form-select">
+                    <option value="Австралия" selected>Австралия</option>
+                  </select>
+                </div>
+                <div class="tour-select">
+                  <p class="tour-select-title">Дата прибытия</p>
+                  <input name="date" type="date" class="form-input" required>
+                </div>
+                <div class="tour-select">
+                  <p class="tour-select-title">Ночей</p>
+                  <input name="namberOfNights" type="number" class="form-input" min="1" max="6" value="6">
+                </div>
+                <div class="tour-select">
+                  <p class="tour-select-title">Туристы</p>
+                  <input name="namberOfTourists" type="number" class="form-input" min="1" max="4" value="2">
+                </div>
+              </div>
+              <button type="submit" class="btn-reset btn btn-tour text">Найти</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="contacts" class="contacts section-offset">
+        <h2 class="section-title">Контакты</h2>
+        <div class="contacts-container flex">
+          <div class="contacts-left">
+            <ul class="contacts-list ">
+              <li class="contacts-item flex">
+                <h3 class="contacts-title">Адрес</h3>
+                <div class="contacts-descr">
+                  <p class="contacts-text">Москва, улица Юности, дом 5&nbsp;строение&nbsp;4, офис&nbsp;</p>
+                </div>
+              </li>
+              <li class="contacts-item flex">
+                <h3 class="contacts-title">Телефоны</h3>
+                <div class="contacts-descr">
+                  <a class="contacts-link" href="tel:+74995356434">+7 499 535-64-34</a>
+                  <a class="contacts-link" href="tel:+74950050544">+7 495 005-05-44</a>
+                </div>
+              </li>
+              <li class="contacts-item flex">
+                <h3 class="contacts-title">Email</h3>
+                <div class="contacts-descr">
+                  <a class="contacts-link" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
+                  <p class="contacts-link-descr">по вопросам бронирования</p>
+                  <a class="contacts-link" href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a>
+                  <p class="contacts-link-descr">по вопросам сотрудничества</p>
+                </div>
+              </li>
+              <li class="contacts-item flex">
+                <h3 class="contacts-title">График</h3>
+                <div class="contacts-descr">
+                  <p class="contacts-text">Понедельник-пятница, с&nbsp;10:00 до&nbsp;19:00</p>
+                </div>
+              </li>
+            </ul>
+            <button class="btn-reset btn btn-contracts text">Построить маршрут</button>
+          </div>
+          <img class="contracts-img" src="img/contracts.jpg" alt="Image hotel">
+        </div>
+      </section>
     </div>
   </main>
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content flex">
+        <div class="footer-inf">
+          <p class="footer-text footer-text-company">© 2012–2020 Управляющая компания Объединённой сети «Лагуна Хотелс»</p>
+          <p class="footer-text footer-text-descr">Представленная на сайте информация носит справочный характер и не является публичной офертой</p>
+          <a class="footer-link" href="#">Пользовательское соглашение</a>
+        </div>
+        <div class="footer-links">
+          <p class="footer-text">11710, улица Юности, дом 5 строение 4, офис 2</p>
+          <div class="footer-links-tel footer-link-block">
+            <a href="tel:+74995356434" class="footer-link">+7 499 535-64-34</a>
+            <a href="tel:+74950050544" class="footer-link">+7 495 005-05-44</a>
+          </div>
+          <div class="footer-links-mail footer-link-block">
+            <a href="mailto:lg.oona@mail.ru" class="footer-link">lg.oona@mail.ru</a>
+            <a href="hotels.ln@mail.ru" class="footer-link">hotels.ln@mail.ru</a>
+          </div>
+        </div>
+        <div class="footer-icon flex">
+          <a class="footer-icon-link" href="#"><img class="footer-icon" src="img/footer-icon-1.svg" alt="1"></a>
+          <a class="footer-icon-link" href="#"><img class="footer-icon" src="img/footer-icon-ok.svg" alt="1"></a>
+          <a class="footer-icon-link" href="#"><img class="footer-icon" src="img/footer-icon-vk.svg" alt="1"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
