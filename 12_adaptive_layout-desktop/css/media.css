@@ -7,6 +7,10 @@
 		padding: 25px 0;
 	}
 
+	.header__container {
+		justify-content: space-between;
+	}
+
 	.nav__list {
 		gap: 60px;
 	}
@@ -33,14 +37,14 @@
 	}
 
 	.hero__title {
-		font-size: 60px;
 		margin-bottom: 16px;
+		font-size: 60px;
 	}
 
 	.hero__descr {
-		font-size: 20px;
 		margin-bottom: 60px;
 		max-width: 660px;
+		font-size: 20px;
 	}
 
 	.btn_big {
@@ -135,7 +139,7 @@
 
 }
 
-@media(max-width: 992px) {
+@media(max-width: 932px) {
 	.header__logo {
 		margin-right: 44px;
 	}
@@ -153,18 +157,18 @@
 	}
 
 	.hero__wrapp {
-		border-radius: 24px;
 		min-height: 662px;
+		border-radius: 24px;
 	}
 
 	.hero__content {
-		max-width: 621px;
 		padding-left: 40px;
+		max-width: 621px;
 	}
 
 	.btn_big {
-		font-size: 23px;
 		padding: 24px 39px;
+		font-size: 23px;
 	}
 
 	.hero__title {
@@ -197,8 +201,8 @@
 	}
 
 	.block-about__inner {
-		border-radius: 24px;
 		padding: 32px 40px;
+		border-radius: 24px;
 	}
 
 	.block-about__descr {
@@ -213,9 +217,9 @@
 
 	.card-about::before {
 		margin-right: 16px;
-		background-size: 114px 99px;
 		width: 114px;
 		height: 99px;
+		background-size: 114px 99px;
 	}
 
 	.card-about__content {
@@ -235,8 +239,8 @@
 	}
 
 	.stages__img {
-		border-radius: 26px;
 		max-height: 293px;
+		border-radius: 26px;
 	}
 
 	.stages__descr {
@@ -305,7 +309,18 @@
 	}
 }
 
-@media(max-width: 576px) {
+@media(max-width: 767px) {
+	.header__logo {
+		flex-shrink: 0;
+		margin-right: 14px;
+	}
+
+	.nav__list {
+		gap: 18px;
+	}
+}
+
+@media(max-width: 670px) {
 	.btn {
 		padding: 12px 44px;
 		border-radius: 8px;
@@ -334,7 +349,6 @@
 
 	.header__search {
 		position: absolute;
-		padding-bottom: 16px;
 		top: 4px;
 		right: 15px;
 	}
@@ -364,15 +378,15 @@
 	}
 
 	.hero__title {
+		margin-bottom: 6px;
 		font-size: 20px;
 		text-align: center;
-		margin-bottom: 6px;
 	}
 
 	.hero__descr {
+		margin-bottom: 32px;
 		font-size: 12px;
 		text-align: center;
-		margin-bottom: 32px;
 	}
 
 	.btn_big {
@@ -382,14 +396,14 @@
 	}
 
 	.title {
-		font-size: 24px;
 		margin-bottom: 20px;
+		font-size: 24px;
 	}
 
 	.about__descr {
+		margin-bottom: 14px;
 		font-size: 14px;
 		line-height: 28px;
-		margin-bottom: 14px;
 	}
 
 	.about__left {
@@ -408,10 +422,10 @@
 
 	.block-about__inner {
 		position: absolute;
+		padding: 0;
 		top: 206px;
 		background-color: inherit;
 		flex-direction: column;
-		padding: 0;
 	}
 
 	.block-about__descr {
@@ -433,6 +447,19 @@
 		align-self: normal;
 	}
 
+	.btn_transparent-orange:hover {
+		color: #fff;
+	}
+
+	.btn_transparent-orange:focus {
+		color: #fff;
+		border: 2px solid #F90;
+	}
+
+	.btn_transparent-orange:active {
+		border: 2px solid #E1670E;
+	}
+
 	.card-about {
 		padding: 0;
 		display: flex;
@@ -441,18 +468,18 @@
 	}
 
 	.card-about::before {
+		margin-bottom: 12px;
+		margin-right: 0;
 		width: 64px;
 		height: 49px;
 		background-size: 64px 49px;
 		align-self: normal;
-		margin-bottom: 12px;
-		margin-right: 0;
 	}
 
 	.card-about__subtitle {
+		margin-bottom: 4px;
 		font-size: 18px;
 		font-weight: 500;
-		margin-bottom: 4px;
 	}
 
 	.card-about__descr {
@@ -465,7 +492,7 @@
     background-image: url(../img/about-icon-320.svg);
 	}
 
-.card-about_img2::before {
+	.card-about_img2::before {
 	background-image: url(../img/about-icon2-320.svg);
 	}
 
@@ -482,14 +509,14 @@
 	}
 
 	.stages__img {
-		border-radius: 16px;
 		min-height: 169px;
+		border-radius: 16px;
 	}
 
 	.stages__subtitle {
+		margin-bottom: 8px;
 		font-size: 18px;
 		font-weight: 500;
-		margin-bottom: 8px;
 	}
 
 	.stages__descr {
@@ -498,8 +525,8 @@
 	}
 
 	.stages__btns {
-		gap: 10px;
 		padding-top: 25px;
+		gap: 10px;
 	}
 
 	.btn_transparent-black {
@@ -514,9 +541,9 @@
 	}
 
 	.questions__subtitle {
+		margin-bottom: 4px;
 		font-size: 18px;
 		font-weight: 500;
-		margin-bottom: 4px;
 	}
 
 	.questions__descr {
@@ -533,8 +560,8 @@
 	}
 
 	.application-form__title {
-		font-size: 24px;
 		margin-bottom: 20px;
+		font-size: 24px;
 	}
 
 	.application-form__input {
@@ -544,8 +571,8 @@
 
 	.application-form__text {
 		padding: 14px 20px;
-		font-size: 14px;
 		margin-bottom: 26px;
+		font-size: 14px;
 	}
 
 	.application-form__post {
