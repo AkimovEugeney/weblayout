@@ -333,7 +333,7 @@
 
 	.header {
 		padding-top: 17px;
-		padding-bottom: 38px;
+		padding-bottom: 29px;
 		border-radius: 0 0 16px 16px;
 	}
 
@@ -341,12 +341,11 @@
 		position: relative;
 		flex-direction: column;
 		align-items: unset;
-		overflow: hidden;
 	}
 
 	.header__logo {
 		margin-right: auto;
-		margin-bottom: 16px;
+		margin-bottom: 9px;
 	}
 
 	.header__search {
@@ -357,10 +356,14 @@
 
 	.header__nav {
 		order: 1;
+		margin-right: 0;
+		overflow: auto;
 	}
 
 	.nav__list {
+		padding: 8px 0;
 		gap: 25px;
+
 	}
 
 	.nav__link {
@@ -422,11 +425,11 @@
 	.block-about {
 		background-image: url(../img/about-320-img.png);
 		max-height: 200px;
-		max-width: 290px;
 		border-radius: 16px;
 	}
 
 	.block-about__inner {
+		width: 100%;
 		position: absolute;
 		padding: 0;
 		top: 206px;
@@ -435,11 +438,12 @@
 	}
 
 	.block-about__descr {
+		margin-bottom: 12px;
+		max-width: 100%;
 		color: #000;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 28px;
-		margin-bottom: 12px;
 	}
 
 	.btn_transparent-orange {

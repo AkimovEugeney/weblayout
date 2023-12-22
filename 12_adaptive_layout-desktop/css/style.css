@@ -102,6 +102,10 @@ body {
   cursor: pointer;
 }
 
+.btn:focus {
+	outline: none;
+}
+
 .btn_big {
 	padding: 25px 39px;
   font-size: 23px;
@@ -146,6 +150,7 @@ body {
 
 .btn_transparent-orange:focus {
 	background-color:	var(--color-orange);
+	outline: none;
 }
 
 .btn_transparent-orange:hover {
@@ -251,8 +256,8 @@ body {
 	position: relative;
 	height: 25px;
   color: var(--color-dark);
-  font-size: 18px;
-  font-weight: 600;
+	font-size: 18px;
+	font-weight: 600;
 	transition: color 0.3s ease-in-out;
 }
 
@@ -364,16 +369,16 @@ body {
 .hero__wrapp {
 	display: flex;
 	min-height: 616px;
-  background: url('../img/hero-img.jpg') no-repeat center / cover;
-  border-radius: 32px;
+	background: url('../img/hero-img.jpg') no-repeat center / cover;
+	border-radius: 32px;
 }
 
 .hero__content {
 	display: flex;
 	flex-direction: column;
-  justify-content: center;
-  padding-left: 80px;
-  max-width: 893px;
+	justify-content: center;
+	padding-left: 80px;
+	max-width: 893px;
 }
 
 .hero__title {
@@ -635,7 +640,6 @@ body {
 	margin: 0;
 	height: 100%;
 	position: relative;
-
 }
 
 .icon_active::after {
@@ -767,16 +771,18 @@ body {
 }
 
 .application-form__data-processing {
+	position: relative;
 	color: #CACACA;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 32px
 }
 
+
 .application-form__checkbox {
 	position: relative;
 	-webkit-appearance: none;
-  appearance: none;
+	appearance: none;
 	padding-left: 15px;
 }
 
