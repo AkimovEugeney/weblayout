@@ -778,6 +778,20 @@ body {
 	line-height: 32px
 }
 
+.application-form__data-processing::before {
+	content: "";
+	position: absolute;
+	top: -3px;
+	bottom: -3px;
+	left: -5px;
+	right: -5px;
+	border: 1px solid var(--color-orange);
+	border-radius: inherit;
+	outline: none;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
 
 .application-form__checkbox {
 	position: relative;
@@ -794,6 +808,14 @@ body {
 	width: 14px;
 	height: 14px;
 	border: 1px solid var(--color-light);
+}
+
+.application-form__checkbox:focus::before {
+	border: 1px solid var(--color-orange);
+}
+
+.application-form__checkbox:active:before {
+	border: 1px solid inherit;
 }
 
 .application-form__checkbox:checked::before {
@@ -816,5 +838,6 @@ body {
 }
 
 .nav__link_footer:active::before{
+	outline: none;
 	opacity: 0;
 }
