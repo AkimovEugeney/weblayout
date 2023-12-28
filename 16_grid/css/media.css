@@ -74,11 +74,11 @@
 	}
 
 	.courses__wrapp {
-		padding-top: 210px;
+		padding-top: 213px;
 	}
 
 	.courses__name {
-		margin-bottom: 12px;
+		margin-bottom: 9px;
 	}
 
 	.courses__descr {
@@ -93,6 +93,10 @@
 	.btn_big {
 		padding: 24px 75px;
 		font-size: 18px;
+	}
+
+	.footer__descr {
+		padding-top: 0;
 	}
 
 	.courses__wrapp_img-1::before {
@@ -130,7 +134,7 @@
 	.header__logo {
 		display: flex;
 		margin-right: 0;
-		margin-bottom: 33px;
+		margin-bottom: 31px;
 		justify-content: center;
 	}
 
@@ -158,10 +162,15 @@
 	}
 
 	.teachers {
-		padding-bottom: 49px;
+		padding-bottom: 74px;
+	}
+
+	.teachers__img {
+		margin-bottom: 26px;
 	}
 
 	.courses__wrapp {
+		min-height: 654px;
 		padding-top: 212px;
 		padding-right: 15px;
 	}
@@ -171,7 +180,7 @@
 	}
 
 	.courses__list {
-		row-gap: 31px;
+		row-gap: 29px;
 	}
 
 	.btn {
@@ -185,6 +194,10 @@
 
 	.courses__descr {
 		margin-bottom: 33px;
+	}
+
+	.footer__descr {
+		padding-top: 0;
 	}
 
 	.courses__wrapp_img-1::before {
@@ -289,8 +302,11 @@
 		padding: 46px 0;
 	}
 
+	.teachers__img {
+		margin-bottom: 28px;
+	}
 	.courses {
-		padding-top: 50px;
+		padding-top: 47px;
 		padding-bottom: 51px;
 	}
 
