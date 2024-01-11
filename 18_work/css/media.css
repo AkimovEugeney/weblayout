@@ -385,7 +385,7 @@
 		align-content: space-between;
 		column-gap: 10px;
 		row-gap: 29px;
-		max-height: 106px;
+		max-height: 116px;
 		min-width: auto;
 	}
 
@@ -625,6 +625,10 @@
 		top: 0;
 		left: 0;
 	}
+
+  .podcast__picture {
+    display: block;
+  }
 
 	.podcast__img {
 		width: 100%;
