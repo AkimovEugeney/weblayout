@@ -126,6 +126,10 @@
 		row-gap: 30px;
 	}
 
+  .playlists__inner {
+    min-width: auto;
+  }
+
 	.playlist {
 		width: 100%;
 	}
@@ -626,8 +630,8 @@
 		left: 0;
 	}
 
-  .podcast__picture {
-    display: block;
+  .podcast__picture source{
+    width: 0px;
   }
 
 	.podcast__img {
@@ -819,4 +823,13 @@
 		font-size: 12px;
 	}
 
+}
+
+
+@media only screen and (max-width: 768px) {
+.main .header {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+}
 }
