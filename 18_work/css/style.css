@@ -469,6 +469,10 @@ img {
 	font-weight: 400;
 }
 
+.podcast__picture {
+  display: flex;
+}
+
 /* transfers */
 .transfers__container {
 	display: flex;
@@ -745,7 +749,7 @@ img {
 	--offsets: 3;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 15px;
+	padding-top: 11px;
 	row-gap: 28px;
 	column-gap: 30px;
 }
