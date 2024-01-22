@@ -36,7 +36,7 @@
 	}
 
 	.header__list {
-		padding: 22px 0;
+		padding: 21px 0;
 		justify-content: space-between;
 	}
 
@@ -63,7 +63,7 @@
 	}
 
 	.wave__wrapp {
-		padding-top: 43px;
+		padding-top: 45px;
     padding-bottom: 39px;
 	}
 
@@ -156,6 +156,10 @@
 		left: 4px;
 	}
 
+  .podcasts__title {
+    margin-bottom: 30px;
+  }
+
 	/* products */
 	.products__inner {
 		max-width: 397px;
@@ -172,6 +176,10 @@
 	.products {
 		padding-bottom: 95px;
 	}
+
+  .products__descr::before {
+    margin-bottom: 20px;
+  }
 
 	/* about */
 	.about__inner {
@@ -196,6 +204,10 @@
 
   .footer__bottom::before {
     background-image: url('../img/footer-svg-1024.svg');
+  }
+
+  .expert__picture {
+    margin-bottom: 31px;
   }
 
 }
@@ -224,7 +236,7 @@
   }
 
 	.wave__wrapp {
-		padding-top: 93px;
+		padding-top: 94px;
 		padding-bottom: 88px;
 	}
 
@@ -396,7 +408,7 @@
 	.footer__wrapp {
 		flex-direction: column;
 		padding-top: 94px;
-		padding-bottom: 80px;
+		padding-bottom: 78px;
 
 	}
 
@@ -416,7 +428,7 @@
 	.footer__list {
 		align-content: space-between;
 		column-gap: 10px;
-		row-gap: 29px;
+		row-gap: 30px;
 		max-height: 116px;
 		min-width: auto;
 	}

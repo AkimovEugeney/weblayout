@@ -730,13 +730,6 @@ img {
 	gap: 30px;
 }
 
-.container_playlist {
-  padding-right: 85px;
-}
-
-.playlists__wrapp {
-  padding-left: 15px;
-}
 
 .playlists__inner {
 	min-width: 351px;
